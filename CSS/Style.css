@@ -1,0 +1,160 @@
+body{
+	background-color: hsl(0, 0%, 10%);
+	color: hsl(0, 0%, 80%);
+}
+hr{
+	border: 1px solid #222222;
+}
+h1{
+	color: #efefef;
+	font-family: AcmeFont;
+	font-size: 300%;
+	border-top: 1px solid #454545;
+	border-bottom: 1px solid #454545;
+	padding: 15px;
+}
+h2{
+	color: #efefef;
+	font-family: AcmeFont;
+	font-size: 250%;
+	border-top: 1px solid #404040;
+	border-bottom: 1px solid #404040;
+	padding: 10px;
+}
+h3{
+	color: #efefef;
+	font-family: AcmeFont;
+	font-size: 225%;
+	border-top: 1px solid #353535;
+	border-bottom: 1px solid #353535;
+	padding: 8px;
+}
+h4{
+	color: #efefef;
+	font-family: AcmeFont;
+	font-size: 200%;
+	border-top: 1px solid #303030;
+	border-bottom: 1px solid #303030;
+	padding: 5px;
+}
+h5{
+	color: #efefef;
+	font-family: AcmeFont;
+	font-size: 175%;
+	border-top: 1px solid #252525;
+	border-bottom: 1px solid #252525;
+	padding: 3px;
+}
+h6{
+	color: #efefef;
+	font-family: AcmeFont;
+	font-size: 150%;
+	border-top: 1px solid #202020;
+	border-bottom: 1px solid #202020;
+	padding: 1px;
+}
+p{
+	padding: 15px;
+}
+p.date{
+	padding: 1px;
+	padding-left: 15px;
+	color: #404040;
+	font-size: 70%;
+	font-family: consoleas;
+}
+ul.menu{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333333;
+}
+ul.menu li{
+	float: right;
+}
+ul.menu li a{
+	font-size: 150%;
+	text-align: right;
+	padding: 16px;
+	display: inline-block;
+	font-weight: bold;
+	color: hsl(0, 0%, 90%);
+	text-decoration: none;
+}
+ul.menu li a:hover{
+	background-color: #555555;
+}
+
+.logo{
+	text-decoration: none;
+	font-size: 150%;
+	color: #ffff00;
+	font-family: AcmeFont;
+	float: left;
+	padding:16px;
+	display: inline-block;
+}
+
+.logo a{
+	text-decoration: none;
+	color: #ffff00;
+}
+
+.logo a:hover{
+	color: #ffaa00;
+}
+
+.banner{
+	width: 100%;
+	display: block;
+}
+
+.banner > .banner-img{
+	width: 100%;
+	display: block;
+}
+
+pre.code{
+	white-space: pre-wrap;
+	table-layout: fixed;
+	width: 100%;
+	font-size: 90%;
+	font-family: consoleas;
+	border: 2px solid #656565;
+	background-color: #444444;
+	color: #dedede;
+	line-height: 10px;
+}
+pre.code::before {
+    counter-reset: linenum;
+}
+pre.code span.tr {
+    display: table-row;
+    counter-increment: linenum;
+}
+pre.code span.th {
+    display: table-cell;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+pre.code span.b{
+	border-left: 1px solid #556555;
+	height: 2em;
+	position: absolute;
+	left: 4em;
+}
+pre.code span.th::before {
+	font-size: 90%;
+	font-family: consoleas;
+    content: counter(linenum) "	";
+    text-align: right;
+    display: block;
+}
+pre.code span.th {
+    width: 4em;
+}
+pre.code code {
+    display: table-cell;
+}
