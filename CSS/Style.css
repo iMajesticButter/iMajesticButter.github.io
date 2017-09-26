@@ -73,6 +73,9 @@ ul.menu{
 ul.menu li{
 	float: right;
 }
+ul.menu li.left{
+	float: left;
+}
 ul.menu li a{
 	font-size: 150%;
 	text-align: right;
@@ -84,6 +87,10 @@ ul.menu li a{
 }
 ul.menu li a:hover{
 	background-color: #555555;
+}
+ul.menu li a img{
+	width: 256px;
+	height: 144px;
 }
 
 .logo{
@@ -157,4 +164,19 @@ pre.code span.th {
 }
 pre.code code {
     display: table-cell;
+}
+a.downL:hover{
+	background-color: #555555;
+}
+iframe.Video{
+	border: none;
+	width: 50vw;
+	height: 28.125vw;
+}
+.listCap{
+	padding-top: 1px; 
+	padding-bottom: 1px; 
+	margin-top: 1px; 
+	margin-bottom: 1px;
+	border: none;
 }
