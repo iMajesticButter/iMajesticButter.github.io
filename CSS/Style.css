@@ -10,6 +10,11 @@ nav {
 	width:  100%;
 }
 
+#news-post {
+	background: #222;
+	padding: 25px;
+}
+
 hr {
 	border: 1px solid #222222;
 }
@@ -17,48 +22,36 @@ hr {
 h1 {
 	color: #efefef;
 	font-size: 300%;
-	border-top: 1px solid #454545;
-	border-bottom: 1px solid #454545;
 	padding: 15px;
 }
 
 h2 {
 	color: #efefef;
 	font-size: 250%;
-	border-top: 1px solid #404040;
-	border-bottom: 1px solid #404040;
 	padding: 10px;
 }
 
 h3 {
 	color: #efefef;
 	font-size: 225%;
-	border-top: 1px solid #353535;
-	border-bottom: 1px solid #353535;
 	padding: 8px;
 }
 
 h4 {
 	color: #efefef;
 	font-size: 200%;
-	border-top: 1px solid #303030;
-	border-bottom: 1px solid #303030;
 	padding: 5px;
 }
 
 h5 {
 	color: #efefef;
 	font-size: 175%;
-	border-top: 1px solid #252525;
-	border-bottom: 1px solid #252525;
 	padding: 3px;
 }
 
 h6 {
 	color: #efefef;
 	font-size: 150%;
-	border-top: 1px solid #202020;
-	border-bottom: 1px solid #202020;
 	padding: 1px;
 }
 
