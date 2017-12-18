@@ -13,6 +13,8 @@ nav {
 #news-post {
 	background: #222;
 	padding: 25px;
+	margin-top:  15px;
+	margin-bottom: 15px;
 }
 
 hr {
@@ -91,6 +93,7 @@ ul.menu li a {
 	font-weight: bold;
 	color: hsl(0, 0%, 90%);
 	text-decoration: none;
+	transition: 0.25s;
 }
 
 ul.menu li a:hover {
